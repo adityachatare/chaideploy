@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = 5001;
 require('dotenv').config()
 
 app.get("/", (req, res) => {
@@ -19,6 +19,9 @@ app.get('/youtube',(req,res)=>{
     res.send("<h2> Chai aur code </h2>")
 })
 
-app.listen(process.env.port, () => {
-  console.log(`Listening at port ${process.env.port}`);
+// app.listen(process.env.port, () => {
+//   console.log(`Listening at port ${process.env.port}`);
+// });
+app.listen(port, () => {
+  console.log(`Listening at port ${port}`);
 });
