@@ -19,6 +19,10 @@ app.get('/youtube',(req,res)=>{
     res.send("<h2> Chai aur code </h2>")
 })
 
+app.get('/surprise',(req,res)=>{
+    res.send("<h2> Divya is cutieeee 😍😍😍😍😍😍 </h2>")
+})
+
 app.get('/adityachatare',(req,res)=>{
     res.send("<h1> You are with Aditya Chatare's private server 😎 </h1>")
 })
